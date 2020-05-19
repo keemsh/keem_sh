@@ -1,1 +1,39 @@
-# keem_sh
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>typo web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+      * { padding: 0; margin: 0; list-style: none; }
+      div {font-family: 'Roboto', sans-serif;}
+      body { padding: 30px;}
+      .tab_type1 ul { display: flex; border-bottom:1px solid #000000;}
+      .tab_type1 ul li {flex:1;}
+      .tab_type1 ul li :first-child a {border-left : 1px solid #ddd;}
+      .tab_type1 ul li a {display: block; height: 59px; border:1px
+      solid #ddd; border-bottom:none; font-size: 16px;
+        color:#505050; text-align: center;
+        line-height:59px; text-decoration:none;}
+      .tab_type1 ul li a.on {height:58px; border-color:#000000;border-top-width:2px;
+      line-height:57px; }
+    </style>
+  </head>
+  <body>
+    <nav class="tab_type1">
+      <ul>
+        <li><a href="typoweb.html"class="on"><div>Index</div></a></li>
+        <li><a href="e1.html"><div>Futura</div></a></li>
+        <li><a href="e2.html"><div>사이사이</div></a></li>
+        <li><a href="e3.html"><div>크기와 무게</div></a></li>
+        <li><a href="k1.html"><div>Spoqa Han Sans</div></a></li>
+        <li><a href="k2.html"><div>사이사이</div></a></li>
+        <li><a href="k3.html"><div>크기와 무게</div></a></li>
+      </ul>
+    </nav>
+    <div id="main">
+      <p><img src="빙글.gif" alt=""></p>
+    </div>
+
+  </body>
+</html>
